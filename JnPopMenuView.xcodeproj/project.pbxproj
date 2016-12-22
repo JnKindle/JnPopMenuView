@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098B5103C318BD39F1D2D85D /* libPods-JnPopMenuView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDD2CAD32B937B93770DB43 /* libPods-JnPopMenuView.a */; };
 		D7E15B9D1E0A72A900A32964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B9C1E0A72A900A32964 /* main.m */; };
 		D7E15BA01E0A72A900A32964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15B9F1E0A72A900A32964 /* AppDelegate.m */; };
 		D7E15BA31E0A72A900A32964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BA21E0A72A900A32964 /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		D7E15BAB1E0A72A900A32964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E15BA91E0A72A900A32964 /* LaunchScreen.storyboard */; };
 		D7E15BB61E0A72A900A32964 /* JnPopMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BB51E0A72A900A32964 /* JnPopMenuViewTests.m */; };
 		D7E15BC11E0A72A900A32964 /* JnPopMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BC01E0A72A900A32964 /* JnPopMenuViewUITests.m */; };
+		D7E15BD81E0A735E00A32964 /* JnPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BD01E0A735E00A32964 /* JnPopMenuView.m */; };
+		D7E15BD91E0A735E00A32964 /* PopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BD31E0A735E00A32964 /* PopMenuButton.m */; };
+		D7E15BDA1E0A735E00A32964 /* PopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BD51E0A735E00A32964 /* PopMenuModel.m */; };
+		D7E15BDB1E0A735E00A32964 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BD71E0A735E00A32964 /* UIColor+ImageGetColor.m */; };
+		D7E15BDF1E0A7F0900A32964 /* popMenvTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E15BDD1E0A7F0800A32964 /* popMenvTopView.m */; };
+		D7E15BE01E0A7F0900A32964 /* popMenvTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E15BDE1E0A7F0800A32964 /* popMenvTopView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD6BD5317079F6BE0C19267 /* Pods-JnPopMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JnPopMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JnPopMenuView/Pods-JnPopMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		24B46A03BD3825BA692D61D8 /* Pods-JnPopMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JnPopMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JnPopMenuView/Pods-JnPopMenuView.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDD2CAD32B937B93770DB43 /* libPods-JnPopMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JnPopMenuView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E15B981E0A72A900A32964 /* JnPopMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JnPopMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E15B9C1E0A72A900A32964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7E15B9E1E0A72A900A32964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		D7E15BBC1E0A72A900A32964 /* JnPopMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JnPopMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E15BC01E0A72A900A32964 /* JnPopMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JnPopMenuViewUITests.m; sourceTree = "<group>"; };
 		D7E15BC21E0A72A900A32964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E15BCF1E0A735E00A32964 /* JnPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JnPopMenuView.h; sourceTree = "<group>"; };
+		D7E15BD01E0A735E00A32964 /* JnPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JnPopMenuView.m; sourceTree = "<group>"; };
+		D7E15BD11E0A735E00A32964 /* JnPopMenuViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JnPopMenuViewDelegate.h; sourceTree = "<group>"; };
+		D7E15BD21E0A735E00A32964 /* PopMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuButton.h; sourceTree = "<group>"; };
+		D7E15BD31E0A735E00A32964 /* PopMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuButton.m; sourceTree = "<group>"; };
+		D7E15BD41E0A735E00A32964 /* PopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuModel.h; sourceTree = "<group>"; };
+		D7E15BD51E0A735E00A32964 /* PopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuModel.m; sourceTree = "<group>"; };
+		D7E15BD61E0A735E00A32964 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
+		D7E15BD71E0A735E00A32964 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		D7E15BDC1E0A7F0800A32964 /* popMenvTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popMenvTopView.h; sourceTree = "<group>"; };
+		D7E15BDD1E0A7F0800A32964 /* popMenvTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popMenvTopView.m; sourceTree = "<group>"; };
+		D7E15BDE1E0A7F0800A32964 /* popMenvTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popMenvTopView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098B5103C318BD39F1D2D85D /* libPods-JnPopMenuView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47E9334BEA3A749F9A3B909C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD2CAD32B937B93770DB43 /* libPods-JnPopMenuView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77662A27E59E2A18C833292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B46A03BD3825BA692D61D8 /* Pods-JnPopMenuView.debug.xcconfig */,
+				0BD6BD5317079F6BE0C19267 /* Pods-JnPopMenuView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D7E15B8F1E0A72A900A32964 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				D7E15BB41E0A72A900A32964 /* JnPopMenuViewTests */,
 				D7E15BBF1E0A72A900A32964 /* JnPopMenuViewUITests */,
 				D7E15B991E0A72A900A32964 /* Products */,
+				D77662A27E59E2A18C833292 /* Pods */,
+				47E9334BEA3A749F9A3B909C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +143,14 @@
 		D7E15B9A1E0A72A900A32964 /* JnPopMenuView */ = {
 			isa = PBXGroup;
 			children = (
+				D7E15BCE1E0A735E00A32964 /* JnPopMenuView */,
 				D7E15B9E1E0A72A900A32964 /* AppDelegate.h */,
 				D7E15B9F1E0A72A900A32964 /* AppDelegate.m */,
 				D7E15BA11E0A72A900A32964 /* ViewController.h */,
 				D7E15BA21E0A72A900A32964 /* ViewController.m */,
+				D7E15BDC1E0A7F0800A32964 /* popMenvTopView.h */,
+				D7E15BDD1E0A7F0800A32964 /* popMenvTopView.m */,
+				D7E15BDE1E0A7F0800A32964 /* popMenvTopView.xib */,
 				D7E15BA41E0A72A900A32964 /* Main.storyboard */,
 				D7E15BA71E0A72A900A32964 /* Assets.xcassets */,
 				D7E15BA91E0A72A900A32964 /* LaunchScreen.storyboard */,
@@ -140,6 +186,23 @@
 			path = JnPopMenuViewUITests;
 			sourceTree = "<group>";
 		};
+		D7E15BCE1E0A735E00A32964 /* JnPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				D7E15BCF1E0A735E00A32964 /* JnPopMenuView.h */,
+				D7E15BD01E0A735E00A32964 /* JnPopMenuView.m */,
+				D7E15BD11E0A735E00A32964 /* JnPopMenuViewDelegate.h */,
+				D7E15BD21E0A735E00A32964 /* PopMenuButton.h */,
+				D7E15BD31E0A735E00A32964 /* PopMenuButton.m */,
+				D7E15BD41E0A735E00A32964 /* PopMenuModel.h */,
+				D7E15BD51E0A735E00A32964 /* PopMenuModel.m */,
+				D7E15BD61E0A735E00A32964 /* UIColor+ImageGetColor.h */,
+				D7E15BD71E0A735E00A32964 /* UIColor+ImageGetColor.m */,
+			);
+			name = JnPopMenuView;
+			path = HyPopMenuView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7E15BC51E0A72A900A32964 /* Build configuration list for PBXNativeTarget "JnPopMenuView" */;
 			buildPhases = (
+				D8D9C0D35572B5F62DCED020 /* [CP] Check Pods Manifest.lock */,
 				D7E15B941E0A72A900A32964 /* Sources */,
 				D7E15B951E0A72A900A32964 /* Frameworks */,
 				D7E15B961E0A72A900A32964 /* Resources */,
+				2ECE1BB44BCFBA7DE4953BED /* [CP] Embed Pods Frameworks */,
+				E60DE1BB583F6F4FA4778335 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +273,6 @@
 				TargetAttributes = {
 					D7E15B971E0A72A900A32964 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9T6M24N5BR;
 						ProvisioningStyle = Automatic;
 					};
 					D7E15BB01E0A72A900A32964 = {
@@ -251,6 +316,7 @@
 			files = (
 				D7E15BAB1E0A72A900A32964 /* LaunchScreen.storyboard in Resources */,
 				D7E15BA81E0A72A900A32964 /* Assets.xcassets in Resources */,
+				D7E15BE01E0A7F0900A32964 /* popMenvTopView.xib in Resources */,
 				D7E15BA61E0A72A900A32964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,14 +337,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ECE1BB44BCFBA7DE4953BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JnPopMenuView/Pods-JnPopMenuView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D9C0D35572B5F62DCED020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60DE1BB583F6F4FA4778335 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JnPopMenuView/Pods-JnPopMenuView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7E15B941E0A72A900A32964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E15BD91E0A735E00A32964 /* PopMenuButton.m in Sources */,
 				D7E15BA31E0A72A900A32964 /* ViewController.m in Sources */,
 				D7E15BA01E0A72A900A32964 /* AppDelegate.m in Sources */,
+				D7E15BD81E0A735E00A32964 /* JnPopMenuView.m in Sources */,
+				D7E15BDA1E0A735E00A32964 /* PopMenuModel.m in Sources */,
 				D7E15B9D1E0A72A900A32964 /* main.m in Sources */,
+				D7E15BDF1E0A7F0900A32964 /* popMenvTopView.m in Sources */,
+				D7E15BDB1E0A735E00A32964 /* UIColor+ImageGetColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +544,12 @@
 		};
 		D7E15BC61E0A72A900A32964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B46A03BD3825BA692D61D8 /* Pods-JnPopMenuView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JnPopMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnPopMenuView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +558,12 @@
 		};
 		D7E15BC71E0A72A900A32964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD6BD5317079F6BE0C19267 /* Pods-JnPopMenuView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9T6M24N5BR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JnPopMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnPopMenuView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +639,7 @@
 				D7E15BC71E0A72A900A32964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E15BC81E0A72A900A32964 /* Build configuration list for PBXNativeTarget "JnPopMenuViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +648,7 @@
 				D7E15BCA1E0A72A900A32964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E15BCB1E0A72A900A32964 /* Build configuration list for PBXNativeTarget "JnPopMenuViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +657,7 @@
 				D7E15BCD1E0A72A900A32964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
